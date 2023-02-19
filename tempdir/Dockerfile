@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.12.0a5-slim
 RUN pip install flask
 COPY  ./static /home/myapp/static/
 COPY  ./templates /home/myapp/templates/
